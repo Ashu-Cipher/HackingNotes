@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91f00c6bbf506feb",
+  "active": "2cba63c7ba44d52d",
   "lastOpenFiles": [
     "Untitled/Untitled.canvas",
     "README.md",
