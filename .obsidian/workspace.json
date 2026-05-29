@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b99ffcacbba618a0",
@@ -118,9 +119,9 @@
   },
   "active": "df2e58cf3084e0e2",
   "lastOpenFiles": [
+    "README.md",
     "NETWORKING/INTRODUCTION.md",
     "NETWORKING",
-    "README.md",
     "Untitled.base",
     "2026-05-29.md",
     "Untitled/Untitled.canvas",
