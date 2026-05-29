@@ -16,3 +16,12 @@ Data Transfer rate: speed with which data is moved from one place to another on 
 ## Models
 1. client/server model: provide service
 2. peer to peer model: 
+
+## Server
+
+1. File Server: A computer that stores and manage files for multiple users on a network
+2. Web Server: A computer dedicated to responding to requests for web pages
+
+## Types of Networks
+
+* Local Area Network (LAN) or Intranet: 
