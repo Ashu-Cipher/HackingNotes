@@ -141,7 +141,7 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -191,10 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cba63c7ba44d52d",
+  "active": "91f00c6bbf506feb",
   "lastOpenFiles": [
-    "Untitled/Untitled.canvas",
     "README.md",
+    "Untitled/Untitled.canvas",
     "Untitled",
     "1"
   ]
