@@ -28,4 +28,6 @@ Data Transfer rate: speed with which data is moved from one place to another on 
 #### Topology:
 * Ring: A config that connects all nodes in a closed loop on which messages travel in one direction.
 * Star: A config that centres around one node to which all others are connected and through which all messages are sent
-* Bus: All nodes are connected to single communication line that 
+* Bus: All nodes are connected to single communication line that carries message in both directions
+![[Screenshot_2026-05-29_21_23_37.png]]
+
