@@ -33,4 +33,11 @@ Data Transfer rate: speed with which data is moved from one place to another on 
 
 ### 2. Wide Area Network(WAN)
 -> Connects two or more LAN
-* Gateway: one particular node on a LAN setup to handle all communication
+* Gateway: one particular node on a LAN setup to handle all communication going between that LAN and other networks.
+* Internetworking: communication between networks
+* Internet: WAN covering globe
+
+
+### 3. Metropolitan Area Network (MAN)
+-> communication infra that has been developed in and around large cities
+

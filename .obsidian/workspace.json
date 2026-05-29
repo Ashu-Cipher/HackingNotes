@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b99ffcacbba618a0",
@@ -117,10 +116,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91f00c6bbf506feb",
+  "active": "cc51084fcce39375",
   "lastOpenFiles": [
-    "NETWORKING/INTRODUCTION.md",
+    "NETWORKING/HISTORY.md",
     "Screenshot_2026-05-29_21_23_37.png",
+    "NETWORKING/INTRODUCTION.md",
     "README.md",
     "NETWORKING",
     "Untitled.base",
