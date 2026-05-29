@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "NETWORKING/INTRODUCTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "INTRODUCTION"
             }
           }
         ]
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -118,11 +118,12 @@
   },
   "active": "df2e58cf3084e0e2",
   "lastOpenFiles": [
-    "Untitled.base",
+    "NETWORKING/INTRODUCTION.md",
+    "NETWORKING",
     "README.md",
+    "Untitled.base",
     "2026-05-29.md",
     "Untitled/Untitled.canvas",
-    "Untitled",
     "1"
   ]
 }
