@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/1. HISTORY.md",
+                "file": "NETWORKING/0. INTRODUCTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. HISTORY"
+              "title": "0. INTRODUCTION"
             }
           }
         ]
@@ -118,8 +118,8 @@
   },
   "active": "df2e58cf3084e0e2",
   "lastOpenFiles": [
-    "Screenshot_2026-05-29_21_23_37.png",
     "NETWORKING/1. HISTORY.md",
+    "Screenshot_2026-05-29_21_23_37.png",
     "NETWORKING/0. INTRODUCTION.md",
     "README.md",
     "NETWORKING",
