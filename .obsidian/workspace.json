@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da41226632448bd4",
+        "id": "368908f37eb86911",
         "type": "tabs",
         "children": [
           {
-            "id": "df2e58cf3084e0e2",
+            "id": "03c4107cc797e3ec",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -189,6 +189,9 @@
   },
   "active": "cc51084fcce39375",
   "lastOpenFiles": [
+    "CRON.md",
+    "Untitled.base",
+    "uigabiu.md",
     "PEN1/Untitled.base",
     "RESOURCES",
     "CHEATSHEET",
@@ -202,9 +205,7 @@
     "Screenshot_2026-05-29_21_23_37.png",
     "README.md",
     "NETWORKING",
-    "Untitled.base",
     "2026-05-29.md",
-    "Untitled/Untitled.canvas",
-    "1"
+    "Untitled/Untitled.canvas"
   ]
 }
