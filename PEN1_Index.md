@@ -2,7 +2,7 @@
 
 > **Instructor:** Bitten Tech | **Goal:** OSCP & beyond
 > **Started:** {{01/06/2026}}
-> > **Status:** 🟡 In Progress
+> **Status:** 🟡 In Progress
 
 ---
 
