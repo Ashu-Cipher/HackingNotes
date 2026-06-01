@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -193,14 +193,15 @@
   },
   "active": "03c4107cc797e3ec",
   "lastOpenFiles": [
+    "CHEATSHEET/AD_Cheatsheet.md",
+    "PEN1_Index.md",
+    "Untitled",
     "TEMPLATE/_Lab_Template.md",
     "TEMPLATE",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Information_Security.md",
-    "PEN1_Index.md",
     "PEN1/INTRODUCTION.md",
     "INTRODUCTION TO CYBER SECURITY",
     "TEMPLATE/_Topic_Template.md",
-    "AD_Cheatsheet.md",
     "PEN1.md",
     "01_Information_Security.md",
     "Untitled.base",
@@ -215,7 +216,6 @@
     "RESOURCES",
     "CHEATSHEET",
     "ATTACHMENT",
-    "LABS",
     "NETWORKING/0. INTRODUCTION.md",
     "NETWORKING/1. HISTORY.md",
     "Screenshot_2026-05-29_21_23_37.png",
