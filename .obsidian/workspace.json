@@ -11,10 +11,14 @@
             "id": "03c4107cc797e3ec",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "TEMPLATE/_Topic_Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Topic_Template"
             }
           }
         ]
@@ -189,6 +193,8 @@
   },
   "active": "03c4107cc797e3ec",
   "lastOpenFiles": [
+    "TEMPLATE/_Lab_Template.md",
+    "TEMPLATE/_Topic_Template.md",
     "PEN1_Index.md",
     "CHEATSHEET/Nmap_Cheatsheet.md",
     "CHEATSHEET/Web_Attacks_Cheatsheet.md",
@@ -196,12 +202,10 @@
     "CHEATSHEET/Linux_PrivEsc_Cheatsheet.md",
     "CHEATSHEET/AD_Cheatsheet.md",
     "Untitled",
-    "TEMPLATE/_Lab_Template.md",
     "TEMPLATE",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Information_Security.md",
     "PEN1/INTRODUCTION.md",
     "INTRODUCTION TO CYBER SECURITY",
-    "TEMPLATE/_Topic_Template.md",
     "PEN1.md",
     "01_Information_Security.md",
     "Untitled.base",
