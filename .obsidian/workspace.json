@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Lab_Template.md",
+                "file": "PEN1_Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Lab_Template"
+              "title": "PEN1_Index"
             }
           }
         ]
@@ -193,9 +193,9 @@
   },
   "active": "cc51084fcce39375",
   "lastOpenFiles": [
+    "PEN1_Index.md",
     "_Lab_Template.md",
     "_Topic_Template.md",
-    "PEN1_Index.md",
     "AD_Cheatsheet.md",
     "PEN1.md",
     "01_Information_Security.md",
@@ -213,7 +213,7 @@
     "ATTACHMENT",
     "LABS",
     "PEN1/Untitled",
-    "PEN1/INTRODUCTION TO CYBERSEC",
+    "PEN1/INTRODUCTION TO CYBER SECURITY",
     "NETWORKING/0. INTRODUCTION.md",
     "NETWORKING/1. HISTORY.md",
     "Screenshot_2026-05-29_21_23_37.png",
