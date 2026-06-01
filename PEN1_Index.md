@@ -17,7 +17,7 @@
 
 ## 🗺️ Module Map
 
-### 📁 01 - [INTRODUCTION TO CYBER SECURITY](/PEN1/INTRODUCTION TO CYBER SECURITY)
+### 📁 01 - INTRODUCTION TO CYBER SECURITY
 - [ ] [[Information_Security]]
 - [ ] [[Ethical_Hacking]]
 - [ ] [[Careers_in_Ethical_Hacking]]
