@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEN1_Index.md",
+                "file": "PEN1/INTRODUCTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PEN1_Index"
+              "title": "INTRODUCTION"
             }
           }
         ]
@@ -191,9 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc51084fcce39375",
+  "active": "03c4107cc797e3ec",
   "lastOpenFiles": [
     "PEN1_Index.md",
+    "PEN1/INTRODUCTION.md",
+    "INTRODUCTION TO CYBER SECURITY",
+    "PEN1/INTRODUCTION TO CYBER SECURITY/Information_Security.md",
     "_Lab_Template.md",
     "_Topic_Template.md",
     "AD_Cheatsheet.md",
@@ -213,7 +216,6 @@
     "ATTACHMENT",
     "LABS",
     "PEN1/Untitled",
-    "PEN1/INTRODUCTION TO CYBER SECURITY",
     "NETWORKING/0. INTRODUCTION.md",
     "NETWORKING/1. HISTORY.md",
     "Screenshot_2026-05-29_21_23_37.png",
