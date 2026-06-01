@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEN1_Index.md",
+                "file": "_Lab_Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PEN1_Index"
+              "title": "_Lab_Template"
             }
           }
         ]
@@ -191,13 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03c4107cc797e3ec",
+  "active": "cc51084fcce39375",
   "lastOpenFiles": [
-    "PEN1.md",
-    "PEN1_Index.md",
-    "01_Information_Security.md",
-    "_Topic_Template.md",
     "_Lab_Template.md",
+    "_Topic_Template.md",
+    "PEN1_Index.md",
+    "AD_Cheatsheet.md",
+    "PEN1.md",
+    "01_Information_Security.md",
     "Untitled.base",
     "files/_Topic_Template.md",
     "files/_Lab_Template.md",
