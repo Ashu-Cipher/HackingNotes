@@ -11,10 +11,14 @@
             "id": "03c4107cc797e3ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PEN1_Index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PEN1_Index"
             }
           }
         ]
@@ -187,18 +191,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc51084fcce39375",
+  "active": "03c4107cc797e3ec",
   "lastOpenFiles": [
-    "_Topic_Template.md",
+    "01_Information_Security.md",
     "PEN1_Index.md",
+    "_Topic_Template.md",
     "_Lab_Template.md",
+    "Untitled.base",
     "files/_Topic_Template.md",
     "files/_Lab_Template.md",
     "files/PEN1_Index.md",
     "files",
     "files.zip",
     "CRON.md",
-    "Untitled.base",
     "uigabiu.md",
     "PEN1/Untitled.base",
     "RESOURCES",

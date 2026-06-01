@@ -17,12 +17,12 @@
 ## 🖥️ Environment
 *Document your setup so you can reproduce it later*
 
-| Component | Details |
-|-----------|---------|
+| Component        | Details          |
+| ---------------- | ---------------- |
 | Attacker Machine | Kali Linux — IP: |
-| Target Machine | — IP: |
-| Network | |
-| Tools Used | |
+| Target Machine   | — IP:            |
+| Network          |                  |
+| Tools Used       |                  |
 
 ---
 
