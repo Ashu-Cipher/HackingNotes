@@ -11,14 +11,10 @@
             "id": "df2e58cf3084e0e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/1. HISTORY.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. HISTORY"
+              "title": "New tab"
             }
           }
         ]
@@ -104,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/1. HISTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1. HISTORY"
+              "title": "Backlinks"
             }
           },
           {
@@ -123,12 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/1. HISTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. HISTORY"
+              "title": "Outgoing links"
             }
           },
           {
@@ -193,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df2e58cf3084e0e2",
+  "active": "cc51084fcce39375",
   "lastOpenFiles": [
+    "PEN1",
     "NETWORKING/0. INTRODUCTION.md",
     "NETWORKING/1. HISTORY.md",
     "Screenshot_2026-05-29_21_23_37.png",
