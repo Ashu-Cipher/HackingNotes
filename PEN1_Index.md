@@ -1,8 +1,8 @@
 # 🔐 PEN1 — Complete Offensive Pentesting
 
 > **Instructor:** Bitten Tech | **Goal:** OSCP & beyond
-> **Started:** {{date}}
-> **Status:** 🟡 In Progress
+> **Started:** {{01/06/2026}}
+> > **Status:** 🟡 In Progress
 
 ---
 
