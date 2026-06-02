@@ -18,7 +18,7 @@
 ## 🗺️ Module Map
 
 ### 📁 01 - INTRODUCTION TO CYBER SECURITY
-- [ ] [[Information_Security]]
+- [x] [[Information_Security]]
 - [ ] [[Ethical_Hacking]]
 - [ ] [[Careers_in_Ethical_Hacking]]
 - [ ] [[General_Terminology]]

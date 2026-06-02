@@ -64,5 +64,24 @@
 * More Sensitive, more physical*
 
 ### Integrity
--> Data 
+-> Data should be consistent, trustworthy and accurate
+-> Data must not change in transit
+-> Most complex to implement
+
+#### Measures
+* Backups
+* Cryptographic Measures
+* Access control
+###  Availability
+-> Data should be available as and when needed
+-> Updated Software and Hardware
+-> Adequate system capacity and bandwidth
+
+#### Measures
+* Firewall rules
+* Patch management
+* Disaster recovery
+* Load balancers
+
+
 ![[Pasted image 20260602213934.png]]
