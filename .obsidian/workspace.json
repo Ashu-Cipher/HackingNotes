@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "368908f37eb86911",
+        "id": "534d15e3412c9034",
         "type": "tabs",
         "children": [
           {
-            "id": "03c4107cc797e3ec",
+            "id": "2e2a222fd4759784",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PEN1_Index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PEN1_Index"
+              "title": "New tab"
             }
           }
         ]
@@ -191,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91f00c6bbf506feb",
+  "active": "2e2a222fd4759784",
   "lastOpenFiles": [
     "PEN1_Index.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
