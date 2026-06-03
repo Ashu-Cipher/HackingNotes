@@ -3,17 +3,17 @@
 ## 📖 Description
 * This Repository is my Personal(Now Public) Notebook to take notes on Cyber Security Courses.
 * Currently, i'm Studying PEN1 course, which explores the topics covered in OSCP exam.
-* This is submitted for *==#horizons==* Hack Club event.
+* This is submitted for *#horizons* Hack Club event.
 
 ## ⚠️ Disclaimer
 All information, scripts, and network maps in this repository are for **==educational purposes only==**. This playbook documents my learning process in a safe, controlled lab environment. Do not use any of these methodologies against systems you do not own or have explicit permission to test.
 
 ## 📸 Screenshots
+<img width="1366" height="768" alt="Screenshot_2026-06-03_14_18_16" src="https://github.com/user-attachments/assets/3ef99784-6b5a-41eb-bb30-6254fd79d4fa" />
 
-![[Screenshot_2026-06-03_14_18_16.png]]
+<img width="1366" height="768" alt="Screenshot_2026-06-03_14_19_37" src="https://github.com/user-attachments/assets/22b0f7bb-4046-41cb-9998-9b609fd4cfe8" />
 
 
-![[Screenshot_2026-06-03_14_19_37.png]]
 
 ## ⚙️ Tech Stack
 * Obsidian: Taking Notes
@@ -30,7 +30,7 @@ All information, scripts, and network maps in this repository are for **==educat
 
 ## 🗺️ Course Progress Tracker
 Here is the tracker i use to track my progress with my course: 
-👉 **[Click here to view my PEN1 Progress Tracker](PEN1_index.md)**
+👉 **[Click here to view my PEN1 Progress Tracker](PEN1_Index.md)**
 
 ## 🛠️ How It Works
 -> This Project works like a live log, notebook, and open source **CyberSecurity** wiki.  
