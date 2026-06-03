@@ -109,6 +109,25 @@
 -> Complete DE
 
 
+# Penetration Testing
+-> An authorized simulated cyberattack on a computer system
+-> To evaluate the security of the system
+-> Automated/Manual
+-> Checking compliance requirements, its employee's security awareness and the organization's immunity towards security incidents
+-> Domain knowledge is more at expert level
+-> Ethical hacking= learning, Penetration testing= implementing
+
+## Phases:
+1. Pre Engagement : meeting with client to have crystal understanding of their needs and vision
+2. Planning & Recon: Test plan generation and public information gathering through scanning
+3. Threat Modelling & Vulnerability Identification: Model of all the security concerns and ranking vulnerability severity 
+4. Exploitation: Gaining access  
+5. Post Exploitation: value determination of assets compromised and further attack propagation
+6. Reporting: Detailing vulnerabilities found, stating impact and remedies
+7. Resolution & Re-Testing: Resolving the issues and verify the fixes
 
 
+##  Cyber Security vs Ethical Hacking
+
+![[Pasted image 20260603215246.png]]
 
