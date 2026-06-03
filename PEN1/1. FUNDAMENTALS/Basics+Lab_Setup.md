@@ -58,6 +58,56 @@
 
 ### Linux Mint: 
 -> Irish distribution, based on Ubuntu
+-> highly stable, full multimedia compatability
+
+### Debian: 
+-> Base for many other distributions (eg: Ubuntu, Kali Linux, MX Linux)
+
+### OpenSUSE:
+-> Beautiful Desktop experience
+-> KDE environment
+
+### CentOS:
+-> Optimised for server environments
+-> Package development and server testing, robust
+
+### Fedora:
+-> Continuation of an older distribution "Red Hat Linux"
+-> used in workstations, advanced and enterprise use
+
+## Advantages:
+- Open Source
+- Security
+- Legacy Support
+- Portable
+- Flexible
+- Software Updates
+- Customizations
+- Free of cost
+- Various flavours
+- Community
+- Performance
+- Fast and easy
+
+## Linux for Penetration Testing:
+### Kali Linux:
+-> Developed by Offensive Security as the rewrite of BackTrack
+-> 500+ preinstalled tools
+
+### Parrot Security:
+-> Debian based, developed by Frozenbox's team
+-> Cloud friendly, lightweight
+-> Highly customizable, strong Community Support
+
+### BlackArch Linux:
+-> Arch based
+-> Window manager preconfigured
+-> contains over 1800 tools
+
+### BackBox:
+-> Ubuntu based
+-> Complete DE
+
 
 
 
