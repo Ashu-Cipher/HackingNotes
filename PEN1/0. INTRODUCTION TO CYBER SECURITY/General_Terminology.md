@@ -13,5 +13,5 @@
 * Vulnerability assessment: Testing and reporting the security loopholes, and telling how to fix them
 * Cyber Espionage: Spying to someone to gain illicit access to confidential information (large institutions)
 * Exploits: Designed to cause unexpected behaviours that an attacker can take advantage of to perform harmful actions
-* Script Kiddie: Newbies/noobs so called hackers without any skills
+* Script Kiddie: Newbies/Noobs so called hackers without any skills
 * Zero-day: Vulnerability not known to professionals only to be exploited by hackers

@@ -25,7 +25,7 @@
 - [x] [[How_to_Become_a_Hacker]]
 
 ### 📁 02 - Fundamentals
-- [ ] [[Lab_Setup]]
+- [ ] [[Basics+Lab_Setup]]
 - [ ] [[Networking_Basics]]
 - [ ] [[Linux_Basics]]
 - [ ] [[Bash_for_Beginners]]

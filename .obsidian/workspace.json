@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
+                "file": "PEN1/1. FUNDAMENTALS/Basics+Lab_Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab_Setup"
+              "title": "Basics+Lab_Setup"
             }
           }
         ]
@@ -193,25 +193,32 @@
   },
   "active": "b33b0fd5fa61f42e",
   "lastOpenFiles": [
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
+    "PEN1/1. FUNDAMENTALS/Basics+Lab_Setup.md",
+    "Careers.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
+    "PEN1/1. FUNDAMENTALS/Networking_Basics.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
+    "PEN1_Index.md",
+    "README.md",
+    "PEN1/1. FUNDAMENTALS/0Basics.md",
+    "NETWORK/NETWORKING/0. INTRODUCTION.md",
+    "NETWORK/NETWORKING/1. HISTORY.md",
+    "ATTACHMENT/Screenshot_2026-05-29_21_23_37.png",
+    "NETWORK/NETWORKING",
+    "NETWORK",
     "ATTACHMENT/Screenshot_2026-06-03_14_19_37.png",
     "ATTACHMENT/Screenshot_2026-06-03_14_18_16.png",
     "ATTACHMENT/Pasted image 20260603120211.png",
     "ATTACHMENT/Pasted image 20260602213934.png",
-    "README.md",
-    "PEN1_Index.md",
     "TEMPLATE/Topic_Template.md",
     "TEMPLATE/Lab_Template.md",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
-    "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
     "PEN1/1. FUNDAMENTALS/Cryptography_Basics.md",
     "PEN1/1. FUNDAMENTALS/Bash_for_Beginners.md",
     "PEN1/1. FUNDAMENTALS/Linux_Basics.md",
-    "PEN1/1. FUNDAMENTALS/Networking_Basics.md",
     "PEN1/1. FUNDAMENTALS",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Untitled.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/_Topic_Template.md",
@@ -222,16 +229,11 @@
     "CHEATSHEET/AD_Cheatsheet.md",
     "Untitled",
     "TEMPLATE",
-    "PEN1/INTRODUCTION.md",
     "INTRODUCTION TO CYBER SECURITY",
-    "PEN1.md",
-    "01_Information_Security.md",
     "Untitled.base",
     "files",
     "files.zip",
     "PEN1/Untitled.base",
-    "RESOURCES",
-    "CHEATSHEET",
     "Screenshot_2026-05-29_21_23_37.png",
     "Untitled/Untitled.canvas"
   ]
