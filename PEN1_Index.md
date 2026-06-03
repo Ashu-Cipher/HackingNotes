@@ -19,8 +19,8 @@
 
 ### 📁 01 - INTRODUCTION TO CYBER SECURITY
 - [x] [[Information_Security]]
-- [ ] [[Ethical_Hacking]]
-- [ ] [[Careers_in_Ethical_Hacking]]
+- [x] [[Ethical_Hacking]]
+- [x] [[Careers_in_Ethical_Hacking]]
 - [ ] [[General_Terminology]]
 - [ ] [[How_to_Become_a_Hacker]]
 
@@ -205,22 +205,22 @@
 
 ## 📊 Progress Tracker
 
-| Module | Topics | Completed | Status |
-|--------|--------|-----------|--------|
-| 01 - Intro | 5 | 0 | 🔴 |
-| 02 - Fundamentals | 5 | 0 | 🔴 |
-| 03 - Info Gathering | 8 | 0 | 🔴 |
-| 04 - Target Scanning | 14 | 0 | 🔴 |
-| 05 - Initial Access & Web App | 33 | 0 | 🔴 |
-| 06 - Metasploit | 6 | 0 | 🔴 |
-| 07 - File Transfers | 2 | 0 | 🔴 |
-| 08 - Port Forwarding & Pivoting | 4 | 0 | 🔴 |
-| 09 - Linux PrivEsc | 11 | 0 | 🔴 |
-| 10 - Windows PrivEsc | 16 | 0 | 🔴 |
-| 11 - Active Directory | 28 | 0 | 🔴 |
-| 12 - Python | 17 | 0 | 🔴 |
-| 13 - Report Writing | 5 | 0 | 🔴 |
-| **Total** | **154** | **0** | 🔴 |
+| Module                          | Topics  | Completed | Status |
+| ------------------------------- | ------- | --------- | ------ |
+| 01 - Intro                      | 5       | 0         | 🔴     |
+| 02 - Fundamentals               | 5       | 0         | 🔴     |
+| 03 - Info Gathering             | 8       | 0         | 🔴     |
+| 04 - Target Scanning            | 14      | 0         | 🔴     |
+| 05 - Initial Access & Web App   | 33      | 0         | 🔴     |
+| 06 - Metasploit                 | 6       | 0         | 🔴     |
+| 07 - File Transfers             | 2       | 0         | 🔴     |
+| 08 - Port Forwarding & Pivoting | 4       | 0         | 🔴     |
+| 09 - Linux PrivEsc              | 11      | 0         | 🔴     |
+| 10 - Windows PrivEsc            | 16      | 0         | 🔴     |
+| 11 - Active Directory           | 28      | 0         | 🔴     |
+| 12 - Python                     | 17      | 0         | 🔴     |
+| 13 - Report Writing             | 5       | 0         | 🔴     |
+| **Total**                       | **154** | **0**     | 🔴     |
 
 > 🔴 Not Started | 🟡 In Progress | 🟢 Complete
 
