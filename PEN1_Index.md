@@ -21,8 +21,8 @@
 - [x] [[Information_Security]]
 - [x] [[Ethical_Hacking]]
 - [x] [[Careers_in_Ethical_Hacking]]
-- [ ] [[General_Terminology]]
-- [ ] [[How_to_Become_a_Hacker]]
+- [x] [[General_Terminology]]
+- [x] [[How_to_Become_a_Hacker]]
 
 ### 📁 02 - Fundamentals
 - [ ] [[Lab_Setup]]

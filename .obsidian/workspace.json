@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEN1/INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
+                "file": "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General_Terminology"
+              "title": "Lab_Setup"
             }
           }
         ]
@@ -191,15 +191,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b33b0fd5fa61f42e",
+  "active": "cc51084fcce39375",
   "lastOpenFiles": [
-    "PEN1/INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/Information_Security.md",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
-    "ATTACHMENT/Pasted image 20260603120211.png",
+    "PEN1/1. FUNDAMENTALS/Cryptography_Basics.md",
     "PEN1_Index.md",
+    "PEN1/1. FUNDAMENTALS/Bash_for_Beginners.md",
+    "PEN1/1. FUNDAMENTALS/Linux_Basics.md",
+    "PEN1/1. FUNDAMENTALS/Networking_Basics.md",
+    "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
+    "PEN1/1. FUNDAMENTALS",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
+    "ATTACHMENT/Pasted image 20260603120211.png",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Untitled.md",
     "ATTACHMENT/Pasted image 20260602213934.png",
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
@@ -220,16 +226,11 @@
     "Untitled.base",
     "files/_Topic_Template.md",
     "files/_Lab_Template.md",
-    "files/PEN1_Index.md",
     "files",
     "files.zip",
-    "CRON.md",
-    "uigabiu.md",
     "PEN1/Untitled.base",
     "RESOURCES",
     "CHEATSHEET",
-    "ATTACHMENT",
-    "NETWORKING/0. INTRODUCTION.md",
     "Screenshot_2026-05-29_21_23_37.png",
     "Untitled/Untitled.canvas"
   ]
