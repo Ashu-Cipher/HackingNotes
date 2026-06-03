@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Lab_Setup"
             }
           }
         ]
@@ -191,17 +191,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91f00c6bbf506feb",
+  "active": "b33b0fd5fa61f42e",
   "lastOpenFiles": [
+    "ATTACHMENT/Screenshot_2026-06-03_14_19_37.png",
+    "ATTACHMENT/Screenshot_2026-06-03_14_18_16.png",
+    "ATTACHMENT/Pasted image 20260603120211.png",
+    "ATTACHMENT/Pasted image 20260602213934.png",
     "README.md",
     "PEN1_Index.md",
     "TEMPLATE/Topic_Template.md",
     "TEMPLATE/Lab_Template.md",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
-    "ATTACHMENT/Pasted image 20260602213934.png",
-    "ATTACHMENT/Screenshot_2026-06-03_14_19_37.png",
-    "ATTACHMENT/Screenshot_2026-06-03_14_18_16.png",
-    "ATTACHMENT/Pasted image 20260603120211.png",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
     "PEN1/1. FUNDAMENTALS/Lab_Setup.md",

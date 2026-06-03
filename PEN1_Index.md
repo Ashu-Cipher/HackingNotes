@@ -207,7 +207,7 @@
 
 | Module                          | Topics  | Completed | Status |
 | ------------------------------- | ------- | --------- | ------ |
-| 01 - Intro                      | 5       | 0         | 🔴     |
+| 01 - Intro                      | 5       | 5         | 🟢     |
 | 02 - Fundamentals               | 5       | 0         | 🔴     |
 | 03 - Info Gathering             | 8       | 0         | 🔴     |
 | 04 - Target Scanning            | 14      | 0         | 🔴     |
