@@ -23,6 +23,11 @@ All information, scripts, and network maps in this repository are for **educatio
 * Kali Linux: Main OS and using Terminal
 * **Much More To Be Added As We Move Forward** 
 
+### NOTE:
+-> I have used AI to make Templates like [[Lab_Template]] & [[Topic_Template]]
+
+
+
 ## 🎯 Motivation
 * Love for Cyber Security
 * To build something which can help me and many others in near future in CTF and to actually learn

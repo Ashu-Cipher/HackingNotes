@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261.5
   },
   "right": {
     "id": "b99ffcacbba618a0",
@@ -177,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,15 +191,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91f00c6bbf506feb",
+  "active": "cc51084fcce39375",
   "lastOpenFiles": [
-    "README.md",
     "PEN1_Index.md",
+    "TEMPLATE/Topic_Template.md",
+    "TEMPLATE/Lab_Template.md",
+    "README.md",
+    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
+    "ATTACHMENT/Pasted image 20260602213934.png",
     "ATTACHMENT/Screenshot_2026-06-03_14_19_37.png",
     "ATTACHMENT/Screenshot_2026-06-03_14_18_16.png",
+    "ATTACHMENT/Pasted image 20260603120211.png",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
-    "PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
     "PEN1/1. FUNDAMENTALS/Lab_Setup.md",
     "PEN1/1. FUNDAMENTALS/Cryptography_Basics.md",
     "PEN1/1. FUNDAMENTALS/Bash_for_Beginners.md",
@@ -208,13 +212,9 @@
     "PEN1/1. FUNDAMENTALS",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
     "PEN1/0. INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
-    "ATTACHMENT/Pasted image 20260603120211.png",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Untitled.md",
-    "ATTACHMENT/Pasted image 20260602213934.png",
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/_Topic_Template.md",
-    "TEMPLATE/_Topic_Template.md",
-    "TEMPLATE/_Lab_Template.md",
     "CHEATSHEET/Nmap_Cheatsheet.md",
     "CHEATSHEET/Web_Attacks_Cheatsheet.md",
     "CHEATSHEET/Windows_PrivEsc_Cheatsheet.md",
