@@ -6,7 +6,7 @@
 * This is submitted for *#horizons* Hack Club event.
 
 ## ⚠️ Disclaimer
-All information, scripts, and network maps in this repository are for **==educational purposes only==**. This playbook documents my learning process in a safe, controlled lab environment. Do not use any of these methodologies against systems you do not own or have explicit permission to test.
+All information, scripts, and network maps in this repository are for **educational purposes only**. This playbook documents my learning process in a safe, controlled lab environment. Do not use any of these methodologies against systems you do not own or have explicit permission to test.
 
 ## 📸 Screenshots
 <img width="1366" height="768" alt="Screenshot_2026-06-03_14_18_16" src="https://github.com/user-attachments/assets/3ef99784-6b5a-41eb-bb30-6254fd79d4fa" />
