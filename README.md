@@ -24,9 +24,7 @@ All information, scripts, and network maps in this repository are for **educatio
 * **Much More To Be Added As We Move Forward** 
 
 ### NOTE:
--> I have used AI to make Templates like [[Lab_Template]] & [[Topic_Template]]
-
-
+-> I declare that I have used AI to make Templates like [[Lab_Template]],  [[Topic_Template]] and [[PEN1_Index]]. and all other notes are made by me.
 
 ## 🎯 Motivation
 * Love for Cyber Security
