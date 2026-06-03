@@ -44,7 +44,7 @@ Here is the tracker i use to track my progress with my course:
 ## 💌 Author's Note
 At its core, this repository is simply my daily grind documented. I built this to fuel my passion for CyberSecurity. Whether you are a fellow high schooler trying to learn penetration testing or someone just browsing for a quick terminal command, I hope this playbook helps you on your own journey. Keep learning, keep hacking, && stay safe and stay curious.
 
-Lots of love,
-[Ashu-Cipher]
+Lots of love,   
+Ashu-Cipher ♡
 
 
