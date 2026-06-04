@@ -139,3 +139,9 @@
 2. Download Kali linux iso file
 3. Boot into kali
 
+## Dual Boot vs Virtual Machine
+
+### Dual Boot
+- Splitting your computer's resources between the two operating systems
+- Each one will have its own dedicated partition on the same hard drive on the same hard drive or an external drive
+- You can
