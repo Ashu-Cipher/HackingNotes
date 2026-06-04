@@ -199,3 +199,10 @@ outside access to your VM directly, it's protected.
 ### LAN Segments
 - An internal network which logically divides a private network into network segments, that is completely contained within the Host computer
 - All VMs connected to an internal network will be visible to each other but not to host
+
+## Must have testing apps
+
+## DVWA
+-> Damn Vulnerable Web Application 
+-> Download using ```sudo apt install dvwa```
+-> To start you can run ```sudo dvwa-start``` or run it from application menu
