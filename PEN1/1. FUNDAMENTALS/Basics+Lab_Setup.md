@@ -214,3 +214,10 @@ outside access to your VM directly, it's protected.
 
 ### bWAPP
 -> Buggy Web Application
+-> Download it from https://sourceforge.net/projects/bwapp/files/bWAPP/
+-> Install dependency using ```sudo apt update -y && sudo apt install apache2 mysql-server php php-mysql php-gd php-curl -y```
+-> Start web server and database server using ```sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo systemctl start mysql
+sudo systemctl enable mysql```
+-> Create bWAPP database and 
