@@ -131,4 +131,11 @@
 
 ![[Pasted image 20260603215246.png]]
 
- 
+# Setup
+-> You can dual boot or use virtualization
+**Virtialization Softwares**: VMWare or VirtualBox
+
+1. Download VMware or VirtualBox
+2. Download Kali linux iso file
+3. Boot into kali
+
