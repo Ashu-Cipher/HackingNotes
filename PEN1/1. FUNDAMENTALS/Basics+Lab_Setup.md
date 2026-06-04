@@ -142,6 +142,32 @@
 ## Dual Boot vs Virtual Machine
 
 ### Dual Boot
-- Splitting your computer's resources between the two operating systems
-- Each one will have its own dedicated partition on the same hard drive on the same hard drive or an external drive
-- You can
+-> Splitting your computer's resources between the two operating systems
+-> Each one will have its own dedicated partition on the same hard drive on the same hard drive or an external drive
+-> You can't run both OS simultaneously
+
+#### Advantage
+- Access to fully dedicated hardware resources like CPU, RAM, etc
+- Perfect for running resource-intensive tasks and programs
+
+#### Disadvantages
+- Installation process is complex
+- You have to restart everytime you need to change OS
+
+### Virtual Machine
+-> Dedicated virtual environment within your OS allowing you to simultaneously run two or more OS
+-> Need a virtualization software and ISO file
+
+#### Advantage
+- Easy to setup
+- Sandboxed
+- Extra layer of security against malware and security vulnerabilities
+- Can create snapshots of OS
+- Able to move to one computer from another
+
+#### Disadvantage
+- No dedicated access of resources between OSes
+- Inconvenient for resource-intensive tasks
+
+## The
+
