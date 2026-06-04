@@ -169,5 +169,10 @@
 - No dedicated access of resources between OSes
 - Inconvenient for resource-intensive tasks
 
-## The
+**You can choose what you want to use, i prefer hybrid method, where Kali Linux is my host OS and you can use custom labs or Machines on Virtual Machine and hack it from your OS**
+
+### Network Configuration
+* In VM you have 3 different types of Network Configuration
+#### 1. NAT (Network Address Translation)
+
 
