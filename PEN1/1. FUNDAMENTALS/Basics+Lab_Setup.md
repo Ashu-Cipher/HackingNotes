@@ -216,11 +216,12 @@ outside access to your VM directly, it's protected.
 -> Buggy Web Application
 -> Download it from https://sourceforge.net/projects/bwapp/files/bWAPP/
 -> Extract it to /var/www/html/
+-> Make it executable by running ``chmod +x /var/www/html/bWAPP
 -> Install dependency using ```sudo apt update -y && sudo apt install apache2 mysql-server php php-mysql php-gd php-curl -y```
 -> Start web server and database server using ```sudo systemctl start apache2
 sudo systemctl enable apache2
 sudo systemctl start mysql
 sudo systemctl enable mysql```
--> Create bWAPP database and grant privileges to user by running ```sudo mysql```
-``CREATE DATABASE bwapp;
-
+-> Go to /var/www/html/bWAPP/admin/ open settings.php change password 
+-> Go to http://localhost/bWAPP/install.php and click on install button
+-> If you get error then run ``mysql -u root -p`` and use the password ``toor``
