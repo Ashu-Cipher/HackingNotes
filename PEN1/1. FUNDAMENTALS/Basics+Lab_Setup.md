@@ -231,5 +231,6 @@ and then ``GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';`` then ``exit
 **Note: “username and my_password” can be anything you pick/want**
 -> Go back to settings.php and set username and password what you picked
 -> ``sudo systemctl restart apache2 && systemctl restart mysql``
--> Then http://localhost/bWAPP/bWAPP/install.php
-
+-> Then http://localhost/bWAPP/install.php
+->  This is such a pain in the ass
+->
