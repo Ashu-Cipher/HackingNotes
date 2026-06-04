@@ -222,14 +222,14 @@ outside access to your VM directly, it's protected.
 sudo systemctl enable apache2
 sudo systemctl start mysql
 sudo systemctl enable mysql```
--> Go to /var/www/html/bWAPP/admin/ open settings.php change password 
+-> Go to /var/www/html/bWAPP/admin/ open settings.php change password to ""
 -> Go to http://localhost/bWAPP/install.php and click on install button
--> If you get error then run ``sudo mysql -u root -p`` and use the password ``toor`` then
+-> If you get error then run ``sudo mysql -u root -p`` and when prompted to root@localhost password just hit enter
 ``use mysql`` then `create user ‘username’@’localhost’ identified by ‘my_password’
-and then `grant all privilages on bWAPP.* to ‘username’@’localhost’ identified by ‘my_password’` 
+and then `grant all privilages on bWAPP.* to ‘username’@’localhost’ identified by ‘my_password’`  
 
 **Note: “username and my_password” can be anything you pick/want**
-
+i wonder 
 
 
 `
