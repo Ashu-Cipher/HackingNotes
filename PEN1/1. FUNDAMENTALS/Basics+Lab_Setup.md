@@ -202,7 +202,15 @@ outside access to your VM directly, it's protected.
 
 ## Must have testing apps
 
-## DVWA
+### DVWA
 -> Damn Vulnerable Web Application 
 -> Download using ```sudo apt install dvwa```
--> To start you can run ```sudo dvwa-start``` or run it from application menu
+-> To start you can run ```sudo dvwa-start``` or run dvwa-start from application menu
+-> Login using default credentials i.e. username: admin & password: password
+-> You can access it on http://127.0.0.1:42001/ or port no specified during dvwa startup
+-> Create database on that site
+-> And you're good to go
+-> You can stop it using ```sudo dvwa-stop``` or run dvwa-stop from application menu
+
+### bWAPP
+-> Buggy Web Application
