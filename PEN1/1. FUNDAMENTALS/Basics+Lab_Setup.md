@@ -175,4 +175,15 @@
 * In VM you have 3 different types of Network Configuration
 #### 1. NAT (Network Address Translation)
 
+-  Just like your home network with a wireless router, the VM will
+be assigned in a separate subnet.
+- Your VM can access outside network like your host, but no
+outside access to your VM directly, it's protected.
+-  DHCP is internal
 
+![[Pasted image 20260604190248.png]]
+
+#### 2. Bridged
+
+- Your VM will be on same network as your host
+- It can be accessed by all computers
