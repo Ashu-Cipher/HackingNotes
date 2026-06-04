@@ -186,4 +186,16 @@ outside access to your VM directly, it's protected.
 #### 2. Bridged
 
 - Your VM will be on same network as your host
-- It can be accessed by all computers
+- It can be accessed by all computers as your network
+- DHCP is external
+
+![[Pasted image 20260604190642.png]]
+
+### 3. Host only
+
+- Host only networking creates a network that is completely contained within the host computer
+- All VMs connected to a host-only network will be visible to the host and to each other
+
+### LAN Segments
+- An internal network which logically divides a private network into network segments, that is completely contained within the Host computer
+- All VMs connected to an internal network will be visible to each other but not to host
