@@ -226,11 +226,11 @@ sudo systemctl enable mysql```
 -> Go to http://localhost/bWAPP/install.php and click on install button
 -> If you get error then run ``sudo mysql -u root -p`` and when prompted to root@localhost password just hit enter
 ``use mysql`` then `CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';`
-and then ``GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';`` then ``exit
+and then ``GRANT ALL PRIVILEGES ON bWAPP.* TO 'username'@'localhost';`` then ``exit
 
 **Note: “username and my_password” can be anything you pick/want**
 -> Go back to settings.php and set username and password what you picked
 -> ``sudo systemctl restart apache2 && systemctl restart mysql``
 -> Then http://localhost/bWAPP/install.php
 ->  This is such a pain in the ass
-->
+
