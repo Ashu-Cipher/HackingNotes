@@ -234,7 +234,122 @@ and then ``GRANT ALL PRIVILEGES ON bWAPP.* TO 'username'@'localhost';`` then ``e
 -> Then http://localhost/bWAPP/install.php
 ->  This is such a pain in the ass
 
-### Metasploitable/ Metasploitable 2/Metasploitable 3
+### Metasploitable
 -> Run directly on VMware
-->
+-> don't use on bridged network config
+
+### OWASP Broken Web Applications Project
+-> Run directly on VMware
+-> don't use on bridged network config
+
+# {{Basics+Lab_Setup}}
+
+> **Module:** {{Module Number & Name}}
+> **Date:** 05/06/2026
+> **Tags:** #pen1 #FUNDAMENTALS #(Basics+Lab_Setup)
+
+---
+
+## 🧠 My Understanding (Plain English)
+*Explain this concept as if talking to a friend. No jargon. If you can't do this — you don't understand it yet. Come back after rewatching.*
+
+> NAT: VM can access outside, but no one from outside can access VM
+> Bridged: can be accessed by all computer in same network
+> Host Only: all will be visible to host and each other
+> LAN Segment: all will be visible to each other but not to host
+
+---
+
+## ⚙️ How It Works (Mechanics)
+*The actual technical mechanism. What happens under the hood? Think packets, system calls, memory, processes.*
+
+**Analogy First:**
+> Testing apps: as vulnerable machines
+
+**Technical Breakdown:**
+- 
+- 
+- 
+
+---
+
+## ⚔️ Offensive Angle
+*How does an attacker use or abuse this?*
+
+**Attack Scenario:**
+> 
+
+**Key Tools:**
+| Tool | Purpose |
+|------|---------|
+| | |
+
+**Critical Commands:**
+```bash
+# What it does — explain purpose before syntax
+
+
+```
+
+**What makes this attack work:**
+- 
+
+---
+
+## 🛡️ Defensive Angle
+*How do you detect or stop this attack?*
+
+**Detection Indicators:**
+- 
+- 
+
+**Logs to check:**
+```
+# What log, what to look for
+
+```
+
+**Mitigation:**
+- 
+
+---
+
+## 🔗 Connections
+*How does this topic connect to other things you've learned?*
+
+- Relates to → [[Networking_Basics]]
+- Required for → [[]]
+- Builds on → [[]]
+
+---
+
+## ❓ Questions & Gaps
+*Things you didn't fully understand. Come back to these.*
+
+- [ ] 
+- [ ] 
+
+---
+
+## 🧪 Lab Notes
+*What you actually did in the lab. Commands run, output observed, what surprised you.*
+
+**Target/Scenario:**
+> 
+
+**Steps Taken:**
+1. 
+2. 
+3. 
+
+**Unexpected Behavior / Lessons Learned:**
+> 
+
+---
+
+## ⚡ One-Line Summary
+*If you had to summarize this entire topic in one sentence — what is it?*
+
+> Just basics
+
 
