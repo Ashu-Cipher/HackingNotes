@@ -234,3 +234,7 @@ and then ``GRANT ALL PRIVILEGES ON bWAPP.* TO 'username'@'localhost';`` then ``e
 -> Then http://localhost/bWAPP/install.php
 ->  This is such a pain in the ass
 
+### Metasploitable/ Metasploitable 2/Metasploitable 3
+-> Run directly on VMware
+->
+
