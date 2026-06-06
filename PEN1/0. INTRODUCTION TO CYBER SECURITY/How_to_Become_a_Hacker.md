@@ -12,9 +12,9 @@
 * Operating Systems
 ## Programming
 * Reverse Engineering: Assembly, C, C++ 
-* Script Writing: ==Python==, Ruby, Perl
-* Web App Testing: ==JavaScript==, PHP, SQL, JSP, Python
-* Shell Scripting: Bash
+* Script Writing: **Python**, Ruby, Perl
+* Web App Testing: **JavaScript**, PHP, SQL, JSP, Python
+* Shell Scripting: **Bash**
 ---
 
 * OWASP Top 10
@@ -23,4 +23,4 @@
 * Hacking Forums
 * Stack
 * Soft Skills
-* ==PRACTICE, PRACTICE AND PRACTICE==
+* **PRACTICE, PRACTICE AND PRACTICE**

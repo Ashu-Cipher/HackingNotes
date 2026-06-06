@@ -237,7 +237,7 @@ and then ``GRANT ALL PRIVILEGES ON bWAPP.* TO 'username'@'localhost';`` then ``e
 ### Metasploitable
 -> Run directly on VMware
 -> don't use on bridged network config
-
+-> NAT preferable
 ### OWASP Broken Web Applications Project
 -> Run directly on VMware
 -> don't use on bridged network config
