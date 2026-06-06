@@ -1,0 +1,5 @@
+site_name: HackingNotes
+theme:
+  name: material
+  palette:
+    scheme: slate

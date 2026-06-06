@@ -16,7 +16,7 @@
 ## Skills:
 - [[How_to_Become_a_Hacker]] 
 - Art of Googling and AI
-- At least one [professional certification](Careers_in_Ethical_Hacking)
+- At least one [professional certification](Careers_in_Ethical_Hacking.md)
 - Strong Cryptography skills
 - Strong Social Engineering skills
 - Patience + out-of-the-box thinking
