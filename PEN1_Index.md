@@ -25,7 +25,7 @@
 - [x] [[How_to_Become_a_Hacker]]
 
 ### 📁 02 - Fundamentals
-- [ ] [[Basics+Lab_Setup]]
+- [x] [[Basics+Lab_Setup]]
 - [ ] [[Networking_Basics]]
 - [ ] [[Linux_Basics]]
 - [ ] [[Bash_for_Beginners]]
@@ -208,7 +208,7 @@
 | Module                          | Topics  | Completed | Status |
 | ------------------------------- | ------- | --------- | ------ |
 | 01 - Intro                      | 5       | 5         | 🟢     |
-| 02 - Fundamentals               | 5       | 0         | 🔴     |
+| 02 - Fundamentals               | 5       | 1         | 🟡     |
 | 03 - Info Gathering             | 8       | 0         | 🔴     |
 | 04 - Target Scanning            | 14      | 0         | 🔴     |
 | 05 - Initial Access & Web App   | 33      | 0         | 🔴     |
