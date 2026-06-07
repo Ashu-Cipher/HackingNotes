@@ -11,10 +11,14 @@
             "id": "a119b1a5497a5d50",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/NETWORK/NETWORKING/1. HISTORY.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. HISTORY"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -189,27 +193,28 @@
   },
   "active": "a119b1a5497a5d50",
   "lastOpenFiles": [
+    "docs/NETWORK/NETWORKING/0. INTRODUCTION.md",
+    "docs/NETWORK/NETWORKING/1. HISTORY.md",
+    "docs/PEN1_Index.md",
+    "docs/PEN1/1. FUNDAMENTALS/2. Networking_Basics.md",
+    "docs/PEN1/1. FUNDAMENTALS/1. Basics+Lab_Setup.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/5. How_to_Become_a_Hacker.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/4. General_Terminology.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/2. Ethical_Hacking.md",
+    "Untitled.md",
     "web/payloads.md",
     "docs/index.md",
     "web",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/Careers_in_Ethical_Hacking.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/3. Careers_in_Ethical_Hacking.md",
     "mkdocs.yml",
-    "docs/PEN1/1. FUNDAMENTALS/Basics+Lab_Setup.md",
-    "docs/PEN1/1. FUNDAMENTALS/Networking_Basics.md",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/How_to_Become_a_Hacker.md",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/Ethical_Hacking.md",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/Information_Security.md",
-    "docs/PEN1_Index.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/1. Information_Security.md",
     "docs",
-    "docs/NETWORK/NETWORKING/0. INTRODUCTION.md",
     "README.md",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/General_Terminology.md",
     "Basics+Lab_Setup/OS.md",
     "Basics+Lab_Setup",
-    "docs/NETWORK/NETWORKING/1. HISTORY.md",
-    "docs/PEN1/1. FUNDAMENTALS/Cryptography_Basics.md",
-    "docs/PEN1/1. FUNDAMENTALS/Bash_for_Beginners.md",
-    "docs/PEN1/1. FUNDAMENTALS/Linux_Basics.md",
+    "docs/PEN1/1. FUNDAMENTALS/5. Cryptography_Basics.md",
+    "docs/PEN1/1. FUNDAMENTALS/4. Bash_for_Beginners.md",
+    "docs/PEN1/1. FUNDAMENTALS/3. Linux_Basics.md",
     "docs/ATTACHMENT/Pasted image 20260604190248.png",
     "docs/ATTACHMENT/Pasted image 20260604190642.png",
     "docs/ATTACHMENT/Pasted image 20260603215246.png",
@@ -229,7 +234,6 @@
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/_Topic_Template.md",
     "docs/CHEATSHEET/Nmap_Cheatsheet.md",
-    "docs/CHEATSHEET/Web_Attacks_Cheatsheet.md",
     "docs/TEMPLATE",
     "INTRODUCTION TO CYBER SECURITY",
     "Untitled.base",

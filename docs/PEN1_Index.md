@@ -18,18 +18,18 @@
 ## 🗺️ Module Map
 
 ### 📁 01 - INTRODUCTION TO CYBER SECURITY
-- [x] [[Information_Security]]
-- [x] [[Ethical_Hacking]]
-- [x] [[Careers_in_Ethical_Hacking]]
-- [x] [[General_Terminology]]
-- [x] [[How_to_Become_a_Hacker]]
+- [x] [[1. Information_Security]]
+- [x] [[2. Ethical_Hacking]]
+- [x] [[3. Careers_in_Ethical_Hacking]]
+- [x] [[4. General_Terminology]]
+- [x] [[5. How_to_Become_a_Hacker]]
 
 ### 📁 02 - Fundamentals
-- [x] [[Basics+Lab_Setup]]
-- [ ] [[Networking_Basics]]
-- [ ] [[Linux_Basics]]
-- [ ] [[Bash_for_Beginners]]
-- [ ] [[Cryptography_Basics]]
+- [x] [[1. Basics+Lab_Setup]]
+- [ ] [[2. Networking_Basics]]
+- [ ] [[3. Linux_Basics]]
+- [ ] [[4. Bash_for_Beginners]]
+- [ ] [[5. Cryptography_Basics]]
 
 ### 📁 03 - Information Gathering
 - [ ] [[Search_Engine_Footprinting]]
