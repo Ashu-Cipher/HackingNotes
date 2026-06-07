@@ -3,3 +3,8 @@ theme:
   name: material
   palette:
     scheme: slate
+plugins:
+  - search
+  - roamlinks
+markdown_extensions:
+  - nl2br
