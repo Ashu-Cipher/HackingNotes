@@ -3,7 +3,6 @@
 ## 📖 Description
 * This Repository is my Personal(Now Public) Notebook to take notes on Cyber Security Courses.
 * Currently, i'm Studying PEN1 course, which explores the topics covered in OSCP exam.
-* This is submitted for *#horizons* Hack Club event.
 
 ## ⚠️ Disclaimer
 All information, scripts, and network maps in this repository are for **educational purposes only**. This playbook documents my learning process in a safe, controlled lab environment. Do not use any of these methodologies against systems you do not own or have explicit permission to test.
