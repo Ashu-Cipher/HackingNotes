@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/NETWORK/NETWORKING/2. NETWORK DEVICES.md",
+                "file": "docs/NETWORK/NETWORKING/3. PHYSICAL LAYER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. NETWORK DEVICES"
+              "title": "3. PHYSICAL LAYER"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "a119b1a5497a5d50",
   "lastOpenFiles": [
-    "docs/NETWORK/NETWORKING/1. HISTORY.md",
     "docs/NETWORK/NETWORKING/2. NETWORK DEVICES.md",
+    "docs/NETWORK/NETWORKING/3. PHYSICAL LAYER.md",
+    "docs/NETWORK/NETWORKING/1. HISTORY.md",
     "docs/googlef538c4f6b1a59dc3.html",
     "docs/ATTACHMENT/Pasted image 20260607201610.png",
     "docs/NETWORK/NETWORKING/0. INTRODUCTION.md",
@@ -235,7 +236,6 @@
     "docs/PEN1/1. FUNDAMENTALS",
     "PEN1/INTRODUCTION TO CYBER SECURITY/Untitled.md",
     "PEN1/INTRODUCTION TO CYBER SECURITY/test.md",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/_Topic_Template.md",
     "docs/TEMPLATE",
     "INTRODUCTION TO CYBER SECURITY",
     "Screenshot_2026-05-29_21_23_37.png",
