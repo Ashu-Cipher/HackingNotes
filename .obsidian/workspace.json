@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/NETWORK/NETWORKING/3. PHYSICAL LAYER.md",
+                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. PHYSICAL LAYER"
+              "title": "5. DATA LINK LAYER"
             }
           }
         ]
@@ -104,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 5. DATA LINK LAYER"
             }
           },
           {
@@ -122,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 5. DATA LINK LAYER"
             }
           },
           {
@@ -172,8 +174,19 @@
               "icon": "lucide-list",
               "title": "Outline of 1. HISTORY"
             }
+          },
+          {
+            "id": "32df9332feaacf28",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -193,13 +206,24 @@
   },
   "active": "a119b1a5497a5d50",
   "lastOpenFiles": [
+    "docs/NETWORK/NETWORKING/4. PHYSICAL LAYER.md",
+    "docs/NETWORK/NETWORKING/6. THE OSI MODEL.md",
+    "docs/NETWORK/NETWORKING/1. INTRODUCTION.md",
+    "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
+    "docs/ATTACHMENT/Pasted image 20260617215402.png",
+    "docs/ATTACHMENT/Pasted image 20260617214834.png",
+    "docs/ATTACHMENT/Pasted image 20260617214048.png",
+    "docs/ATTACHMENT/Pasted image 20260617213718.png",
+    "docs/ATTACHMENT/Pasted image 20260617213620.png",
+    "docs/ATTACHMENT/Pasted image 20260617213207.png",
+    "docs/ATTACHMENT/Pasted image 20260617212435.png",
+    "docs/ATTACHMENT/Pasted image 20260617211906.png",
+    "docs/ATTACHMENT/Pasted image 20260617210942.png",
+    "docs/ATTACHMENT/Pasted image 20260617210927.png",
+    "docs/NETWORK/NETWORKING/3. NETWORK DEVICES.md",
+    "docs/NETWORK/NETWORKING/2. HISTORY.md",
     "2026-06-17.md",
-    "docs/NETWORK/NETWORKING/3. PHYSICAL LAYER.md",
-    "docs/NETWORK/NETWORKING/2. NETWORK DEVICES.md",
-    "docs/NETWORK/NETWORKING/1. HISTORY.md",
     "docs/googlef538c4f6b1a59dc3.html",
-    "docs/ATTACHMENT/Pasted image 20260607201610.png",
-    "docs/NETWORK/NETWORKING/0. INTRODUCTION.md",
     "docs/PEN1_Index.md",
     "docs/PEN1/1. FUNDAMENTALS/2. Networking_Basics.md",
     "docs/PEN1/1. FUNDAMENTALS/1. Basics+Lab_Setup.md",
@@ -220,25 +244,14 @@
     "docs/PEN1/1. FUNDAMENTALS/5. Cryptography_Basics.md",
     "docs/PEN1/1. FUNDAMENTALS/4. Bash_for_Beginners.md",
     "docs/PEN1/1. FUNDAMENTALS/3. Linux_Basics.md",
-    "docs/ATTACHMENT/Pasted image 20260604190248.png",
-    "docs/ATTACHMENT/Pasted image 20260604190642.png",
-    "docs/ATTACHMENT/Pasted image 20260603215246.png",
     "Careers.md",
     "PEN1/1. FUNDAMENTALS/0Basics.md",
-    "docs/ATTACHMENT/Screenshot_2026-05-29_21_23_37.png",
     "docs/NETWORK/NETWORKING",
     "docs/NETWORK",
-    "docs/ATTACHMENT/Screenshot_2026-06-03_14_19_37.png",
-    "docs/ATTACHMENT/Screenshot_2026-06-03_14_18_16.png",
-    "docs/ATTACHMENT/Pasted image 20260603120211.png",
-    "docs/ATTACHMENT/Pasted image 20260602213934.png",
     "docs/TEMPLATE/Topic_Template.md",
-    "docs/TEMPLATE/Lab_Template.md",
     "docs/PEN1/1. FUNDAMENTALS",
-    "PEN1/INTRODUCTION TO CYBER SECURITY/Untitled.md",
     "docs/TEMPLATE",
     "INTRODUCTION TO CYBER SECURITY",
-    "Screenshot_2026-05-29_21_23_37.png",
     "Untitled/Untitled.canvas"
   ]
 }
