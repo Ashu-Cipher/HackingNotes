@@ -1,7 +1,7 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "updated {{files}}",
   "autoCommitMessage": "vault backup: {{date}}",
-  "commitMessageScript": "",
+  "commitMessageScript": "sh -c",
   "commitDateFormat": "DD/MM/YYYY HH:mm:ss",
   "autoSaveInterval": 15,
   "autoPushInterval": 15,
