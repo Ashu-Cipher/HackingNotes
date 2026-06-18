@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/NETWORKING/6. THE OSI MODEL.md",
+                "file": "docs/NETWORKING/7. TCP IP MODEL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. THE OSI MODEL"
+              "title": "7. TCP IP MODEL"
             }
           }
         ]
@@ -107,6 +107,83 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "91fbf7fea9490406",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/NETWORKING/7. TCP IP MODEL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 7. TCP IP MODEL"
+            }
+          },
+          {
+            "id": "e36ff7bd5673cd2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/NETWORKING/7. TCP IP MODEL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 7. TCP IP MODEL"
+            }
+          },
+          {
+            "id": "567e85f98eca96a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f93c8a4a9d4f4ae4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f40cd8ea991526bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/NETWORKING/7. TCP IP MODEL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 7. TCP IP MODEL"
+            }
           }
         ],
         "currentTab": 1
@@ -129,15 +206,21 @@
   },
   "active": "cc51084fcce39375",
   "lastOpenFiles": [
+    "docs/ATTACHMENT/Pasted image 20260618163018.png",
+    "docs/ATTACHMENT/Pasted image 20260618162904.png",
+    "docs/NETWORKING/1. INTRODUCTION.md",
+    "docs/NETWORKING/7. TCP IP MODEL.md",
+    "7. TCP/IP MODEL.md",
+    "7. TCP",
+    "7..md",
+    "docs/NETWORKING/6. THE OSI MODEL.md",
     "docs/ATTACHMENT/Pasted image 20260618154349.png",
     "docs/NETWORKING/5. DATA LINK LAYER.md",
     "docs/PEN1/1. FUNDAMENTALS/2. Networking_Basics.md",
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/1. Information_Security.md",
-    "docs/NETWORKING/6. THE OSI MODEL.md",
     "docs/NETWORKING/4. PHYSICAL LAYER.md",
     "docs/NETWORKING/3. NETWORK DEVICES.md",
     "docs/NETWORKING/2. HISTORY.md",
-    "docs/NETWORKING/1. INTRODUCTION.md",
     "docs/NETWORKING",
     "docs/NETWORK/NETWORKING/6. THE OSI MODEL.md",
     "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
@@ -156,8 +239,6 @@
     "docs/ATTACHMENT/Pasted image 20260617215402.png",
     "docs/ATTACHMENT/Pasted image 20260617214834.png",
     "docs/ATTACHMENT/Pasted image 20260617214048.png",
-    "docs/ATTACHMENT/Pasted image 20260617213718.png",
-    "docs/ATTACHMENT/Pasted image 20260617213620.png",
     "2026-06-17.md",
     "docs/googlef538c4f6b1a59dc3.html",
     "docs/PEN1_Index.md",
@@ -165,16 +246,12 @@
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/5. How_to_Become_a_Hacker.md",
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/4. General_Terminology.md",
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/2. Ethical_Hacking.md",
-    "Untitled.md",
-    "web/payloads.md",
-    "docs/index.md",
     "web",
     "mkdocs.yml",
     "docs",
     "Basics+Lab_Setup",
     "docs/NETWORK",
     "docs/PEN1/1. FUNDAMENTALS",
-    "docs/TEMPLATE",
     "Untitled/Untitled.canvas"
   ]
 }
