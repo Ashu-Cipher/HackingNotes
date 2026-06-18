@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
+                "file": "docs/NETWORKING/6. THE OSI MODEL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. DATA LINK LAYER"
+              "title": "6. THE OSI MODEL"
             }
           }
         ]
@@ -99,84 +99,7 @@
             }
           },
           {
-            "id": "880b79493dbe344f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 5. DATA LINK LAYER"
-            }
-          },
-          {
-            "id": "c683e099e1a8f69d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 5. DATA LINK LAYER"
-            }
-          },
-          {
-            "id": "ef5570d13dfdd316",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "dcd505ca98a9e390",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "357597d2f4c06434",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "NETWORKING/1. HISTORY.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 1. HISTORY"
-            }
-          },
-          {
-            "id": "32df9332feaacf28",
+            "id": "e32560e309d6aea9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -186,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,26 +129,38 @@
   },
   "active": "a119b1a5497a5d50",
   "lastOpenFiles": [
-    "docs/NETWORK/NETWORKING/4. PHYSICAL LAYER.md",
+    "Pasted image 20260618154349.png",
+    "docs/NETWORKING/5. DATA LINK LAYER.md",
+    "docs/PEN1/1. FUNDAMENTALS/2. Networking_Basics.md",
+    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/1. Information_Security.md",
+    "docs/NETWORKING/6. THE OSI MODEL.md",
+    "docs/NETWORKING/4. PHYSICAL LAYER.md",
+    "docs/NETWORKING/3. NETWORK DEVICES.md",
+    "docs/NETWORKING/2. HISTORY.md",
+    "docs/NETWORKING/1. INTRODUCTION.md",
+    "docs/NETWORKING",
     "docs/NETWORK/NETWORKING/6. THE OSI MODEL.md",
-    "docs/NETWORK/NETWORKING/1. INTRODUCTION.md",
     "docs/NETWORK/NETWORKING/5. DATA LINK LAYER.md",
+    "docs/NETWORK/NETWORKING/4. PHYSICAL LAYER.md",
+    "docs/NETWORK/NETWORKING/3. NETWORK DEVICES.md",
+    "docs/NETWORK/NETWORKING/2. HISTORY.md",
+    "docs/NETWORK/NETWORKING/1. INTRODUCTION.md",
+    "docs/NETWORK/NETWORKING",
+    "docs/ATTACHMENT/Pasted image 20260618153502.png",
+    "docs/ATTACHMENT/Pasted image 20260618153422.png",
+    "docs/ATTACHMENT/Pasted image 20260618153307.png",
+    "4._PHYSICAL_LAYER.md",
+    "4..md",
+    "docs/ATTACHMENT/Pasted image 20260618150259.png",
+    "docs/ATTACHMENT/Pasted image 20260618141837.png",
     "docs/ATTACHMENT/Pasted image 20260617215402.png",
     "docs/ATTACHMENT/Pasted image 20260617214834.png",
     "docs/ATTACHMENT/Pasted image 20260617214048.png",
     "docs/ATTACHMENT/Pasted image 20260617213718.png",
     "docs/ATTACHMENT/Pasted image 20260617213620.png",
-    "docs/ATTACHMENT/Pasted image 20260617213207.png",
-    "docs/ATTACHMENT/Pasted image 20260617212435.png",
-    "docs/ATTACHMENT/Pasted image 20260617211906.png",
-    "docs/ATTACHMENT/Pasted image 20260617210942.png",
-    "docs/ATTACHMENT/Pasted image 20260617210927.png",
-    "docs/NETWORK/NETWORKING/3. NETWORK DEVICES.md",
-    "docs/NETWORK/NETWORKING/2. HISTORY.md",
     "2026-06-17.md",
     "docs/googlef538c4f6b1a59dc3.html",
     "docs/PEN1_Index.md",
-    "docs/PEN1/1. FUNDAMENTALS/2. Networking_Basics.md",
     "docs/PEN1/1. FUNDAMENTALS/1. Basics+Lab_Setup.md",
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/5. How_to_Become_a_Hacker.md",
     "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/4. General_Terminology.md",
@@ -234,24 +169,12 @@
     "web/payloads.md",
     "docs/index.md",
     "web",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/3. Careers_in_Ethical_Hacking.md",
     "mkdocs.yml",
-    "docs/PEN1/0. INTRODUCTION TO CYBER SECURITY/1. Information_Security.md",
     "docs",
-    "README.md",
-    "Basics+Lab_Setup/OS.md",
     "Basics+Lab_Setup",
-    "docs/PEN1/1. FUNDAMENTALS/5. Cryptography_Basics.md",
-    "docs/PEN1/1. FUNDAMENTALS/4. Bash_for_Beginners.md",
-    "docs/PEN1/1. FUNDAMENTALS/3. Linux_Basics.md",
-    "Careers.md",
-    "PEN1/1. FUNDAMENTALS/0Basics.md",
-    "docs/NETWORK/NETWORKING",
     "docs/NETWORK",
-    "docs/TEMPLATE/Topic_Template.md",
     "docs/PEN1/1. FUNDAMENTALS",
     "docs/TEMPLATE",
-    "INTRODUCTION TO CYBER SECURITY",
     "Untitled/Untitled.canvas"
   ]
 }
