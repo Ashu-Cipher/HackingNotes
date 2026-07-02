@@ -1,0 +1,1834 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/5.%20How_to_Become_a_Hacker/">
+      
+      
+        <link rel="next" href="../2.%20Networking_Basics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Cyber Security Basics - HackingNotes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cyber-security-basics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="HackingNotes" class="md-header__button md-logo" aria-label="HackingNotes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HackingNotes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cyber Security Basics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="HackingNotes" class="md-nav__button md-logo" aria-label="HackingNotes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    HackingNotes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HackingNotes: PEN1 CyberSecurity Playbook + Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PEN1_Index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔐 PEN1 — Complete Offensive Pentesting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHEATSHEET
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CHEATSHEET
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHEATSHEET/AD_Cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AD Cheatsheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHEATSHEET/Linux_PrivEsc_Cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux PrivEsc Cheatsheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHEATSHEET/Nmap_Cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nmap Cheatsheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHEATSHEET/Web_Attacks_Cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Attacks Cheatsheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHEATSHEET/Windows_PrivEsc_Cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Windows PrivEsc Cheatsheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NETWORKING
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    NETWORKING
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/1.%20INTRODUCTION/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/2.%20HISTORY/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Who owns the Internet?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/3.%20NETWORK%20DEVICES/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. NETWORK DEVICES
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/4.%20PHYSICAL%20LAYER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transmission Media
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/5.%20DATA%20LINK%20LAYER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Switching
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/6.%20THE%20OSI%20MODEL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. THE OSI MODEL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../NETWORKING/7.%20TCP%20IP%20MODEL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The TCP/IP Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PEN1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PEN1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0. INTRODUCTION TO CYBER SECURITY
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    0. INTRODUCTION TO CYBER SECURITY
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/1.%20Information_Security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Information
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/2.%20Ethical_Hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/3.%20Careers_in_Ethical_Hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Professional Certification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/4.%20General_Terminology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. General Terminology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/5.%20How_to_Become_a_Hacker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. How to Become a Hacker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. FUNDAMENTALS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. FUNDAMENTALS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyber Security Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cyber Security Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantages:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skills:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vulnerability-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vulnerability Research
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vulnerability Research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.%20Networking_Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Networking Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20Linux_Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Linux Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20Bash_for_Beginners/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Bash for Beginners
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20Cryptography_Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Cryptography Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEMPLATE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    TEMPLATE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../TEMPLATE/Lab_Template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧪 Lab — {{Lab Name}}
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../TEMPLATE/Topic_Template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    {{TOPIC NAME}}
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantages:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skills:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vulnerability-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vulnerability Research
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vulnerability Research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cyber-security-basics">Cyber Security Basics</h1>
+<h2 id="advantages">Advantages:</h2>
+<ul>
+<li>Protection against unwanted software</li>
+<li>Maintain privacy and secure data</li>
+<li>Preserving valuable resources</li>
+<li>Keeping cyber space safe and clean</li>
+</ul>
+<h2 id="limitations">Limitations:</h2>
+<ul>
+<li>Costly</li>
+<li>Bad Configuration = disaster</li>
+<li>Difficult to choose right solution</li>
+<li>unawareness</li>
+<li>makes things slower</li>
+</ul>
+<h2 id="skills">Skills:</h2>
+<ul>
+<li><a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/5.%20How_to_Become_a_Hacker/">5. How_to_Become_a_Hacker</a> </li>
+<li>Art of Googling and AI</li>
+<li>At least one <a href="../../0.%20INTRODUCTION%20TO%20CYBER%20SECURITY/3.%20Careers_in_Ethical_Hacking/">professional certification</a></li>
+<li>Strong Cryptography skills</li>
+<li>Strong Social Engineering skills</li>
+<li>Patience + out-of-the-box thinking</li>
+<li>Always updated and optimistic</li>
+</ul>
+<hr />
+<h2 id="vulnerability-research">Vulnerability Research</h2>
+<p>-&gt; White box approach to software testing</p>
+<h3 id="steps">Steps:</h3>
+<ul>
+<li>Fuzzing and reverse engineering</li>
+<li>Network &amp; Protocol analysis</li>
+<li>Cryptography</li>
+<li>Web Application, API's and Mobile apps</li>
+<li>Hardware analysis</li>
+</ul>
+<p>-&gt; deriving concept from known attack and applying statistically for current system<br />
+-&gt; periodic operations helps to mitigate security attacks<br />
+-&gt; helps to reduce zero-day exploits</p>
+<h1 id="os-linux">OS: Linux</h1>
+<ul>
+<li>Open Source, Cross Platform OS</li>
+<li>Derived from UNIX OS, modified by Linus Torvalds</li>
+<li>Developed and Launched in 1991, one of most used Kernel</li>
+<li>Runs on everything</li>
+<li>UNIX shell based environment, just a kernel</li>
+</ul>
+<h2 id="evolution">Evolution:</h2>
+<p>-&gt; UNIX: project started in 1969, Bell Laboratories, in C<br />
+-&gt; Commercial use, closed source<br />
+-&gt; 1991, Torvald wrote his own UNIX, made freely available<br />
+-&gt; 1992, GNU GPL, not available for commercial use<br />
+-&gt; modified and many flavours released</p>
+<h2 id="distributions">Distributions:</h2>
+<h3 id="ubuntu">Ubuntu:</h3>
+<p>-&gt; Debian based, uses GNOME DE<br />
+-&gt; most known Linux distribution</p>
+<h3 id="linux-mint">Linux Mint:</h3>
+<p>-&gt; Irish distribution, based on Ubuntu<br />
+-&gt; highly stable, full multimedia compatability</p>
+<h3 id="debian">Debian:</h3>
+<p>-&gt; Base for many other distributions (eg: Ubuntu, Kali Linux, MX Linux)</p>
+<h3 id="opensuse">OpenSUSE:</h3>
+<p>-&gt; Beautiful Desktop experience<br />
+-&gt; KDE environment</p>
+<h3 id="centos">CentOS:</h3>
+<p>-&gt; Optimised for server environments<br />
+-&gt; Package development and server testing, robust</p>
+<h3 id="fedora">Fedora:</h3>
+<p>-&gt; Continuation of an older distribution "Red Hat Linux"<br />
+-&gt; used in workstations, advanced and enterprise use</p>
+<h2 id="advantages_1">Advantages:</h2>
+<ul>
+<li>Open Source</li>
+<li>Security</li>
+<li>Legacy Support</li>
+<li>Portable</li>
+<li>Flexible</li>
+<li>Software Updates</li>
+<li>Customizations</li>
+<li>Free of cost</li>
+<li>Various flavours</li>
+<li>Community</li>
+<li>Performance</li>
+<li>Fast and easy</li>
+</ul>
+<h2 id="linux-for-penetration-testing">Linux for Penetration Testing:</h2>
+<h3 id="kali-linux">Kali Linux:</h3>
+<p>-&gt; Developed by Offensive Security as the rewrite of BackTrack<br />
+-&gt; 500+ preinstalled tools</p>
+<h3 id="parrot-security">Parrot Security:</h3>
+<p>-&gt; Debian based, developed by Frozenbox's team<br />
+-&gt; Cloud friendly, lightweight<br />
+-&gt; Highly customizable, strong Community Support</p>
+<h3 id="blackarch-linux">BlackArch Linux:</h3>
+<p>-&gt; Arch based<br />
+-&gt; Window manager preconfigured<br />
+-&gt; contains over 1800 tools</p>
+<h3 id="backbox">BackBox:</h3>
+<p>-&gt; Ubuntu based<br />
+-&gt; Complete DE</p>
+<h1 id="penetration-testing">Penetration Testing</h1>
+<p>-&gt; An authorized simulated cyberattack on a computer system<br />
+-&gt; To evaluate the security of the system<br />
+-&gt; Automated/Manual<br />
+-&gt; Checking compliance requirements, its employee's security awareness and the organization's immunity towards security incidents<br />
+-&gt; Domain knowledge is more at expert level<br />
+-&gt; Ethical hacking= learning, Penetration testing= implementing</p>
+<h2 id="phases">Phases:</h2>
+<ol>
+<li>Pre Engagement : meeting with client to have crystal understanding of their needs and vision</li>
+<li>Planning &amp; Recon: Test plan generation and public information gathering through scanning</li>
+<li>Threat Modelling &amp; Vulnerability Identification: Model of all the security concerns and ranking vulnerability severity </li>
+<li>Exploitation: Gaining access  </li>
+<li>Post Exploitation: value determination of assets compromised and further attack propagation</li>
+<li>Reporting: Detailing vulnerabilities found, stating impact and remedies</li>
+<li>Resolution &amp; Re-Testing: Resolving the issues and verify the fixes</li>
+</ol>
+<h2 id="cyber-security-vs-ethical-hacking">Cyber Security vs Ethical Hacking</h2>
+<p><img alt="Pasted image 20260603215246.png" src="../../../ATTACHMENT/Pasted%20image%2020260603215246.png" /></p>
+<h1 id="setup">Setup</h1>
+<p>-&gt; You can dual boot or use virtualization<br />
+<strong>Virtialization Softwares</strong>: VMWare or VirtualBox</p>
+<ol>
+<li>Download VMware or VirtualBox</li>
+<li>Download Kali linux iso file</li>
+<li>Boot into kali</li>
+</ol>
+<h2 id="dual-boot-vs-virtual-machine">Dual Boot vs Virtual Machine</h2>
+<h3 id="dual-boot">Dual Boot</h3>
+<p>-&gt; Splitting your computer's resources between the two operating systems<br />
+-&gt; Each one will have its own dedicated partition on the same hard drive on the same hard drive or an external drive<br />
+-&gt; You can't run both OS simultaneously</p>
+<h4 id="advantage">Advantage</h4>
+<ul>
+<li>Access to fully dedicated hardware resources like CPU, RAM, etc</li>
+<li>Perfect for running resource-intensive tasks and programs</li>
+</ul>
+<h4 id="disadvantages">Disadvantages</h4>
+<ul>
+<li>Installation process is complex</li>
+<li>You have to restart everytime you need to change OS</li>
+</ul>
+<h3 id="virtual-machine">Virtual Machine</h3>
+<p>-&gt; Dedicated virtual environment within your OS allowing you to simultaneously run two or more OS<br />
+-&gt; Need a virtualization software and ISO file</p>
+<h4 id="advantage_1">Advantage</h4>
+<ul>
+<li>Easy to setup</li>
+<li>Sandboxed</li>
+<li>Extra layer of security against malware and security vulnerabilities</li>
+<li>Can create snapshots of OS</li>
+<li>Able to move to one computer from another</li>
+</ul>
+<h4 id="disadvantage">Disadvantage</h4>
+<ul>
+<li>No dedicated access of resources between OSes</li>
+<li>Inconvenient for resource-intensive tasks</li>
+</ul>
+<p><strong>You can choose what you want to use, i prefer hybrid method, where Kali Linux is my host OS and you can use custom labs or Machines on Virtual Machine and hack it from your OS</strong></p>
+<h3 id="network-configuration">Network Configuration</h3>
+<ul>
+<li>In VM you have 3 different types of Network Configuration</li>
+</ul>
+<h4 id="1-nat-network-address-translation">1. NAT (Network Address Translation)</h4>
+<ul>
+<li>Just like your home network with a wireless router, the VM will<br />
+be assigned in a separate subnet.</li>
+<li>Your VM can access outside network like your host, but no<br />
+outside access to your VM directly, it's protected.</li>
+<li>DHCP is internal</li>
+</ul>
+<p><img alt="Pasted image 20260604190248.png" src="../../../ATTACHMENT/Pasted%20image%2020260604190248.png" /></p>
+<h4 id="2-bridged">2. Bridged</h4>
+<ul>
+<li>Your VM will be on same network as your host</li>
+<li>It can be accessed by all computers as your network</li>
+<li>DHCP is external</li>
+</ul>
+<p><img alt="Pasted image 20260604190642.png" src="../../../ATTACHMENT/Pasted%20image%2020260604190642.png" /></p>
+<h3 id="3-host-only">3. Host only</h3>
+<ul>
+<li>Host only networking creates a network that is completely contained within the host computer</li>
+<li>All VMs connected to a host-only network will be visible to the host and to each other</li>
+</ul>
+<h3 id="lan-segments">LAN Segments</h3>
+<ul>
+<li>An internal network which logically divides a private network into network segments, that is completely contained within the Host computer</li>
+<li>All VMs connected to an internal network will be visible to each other but not to host</li>
+</ul>
+<h2 id="must-have-testing-apps">Must have testing apps</h2>
+<h3 id="dvwa">DVWA</h3>
+<p>-&gt; Damn Vulnerable Web Application <br />
+-&gt; Download using <code>sudo apt install dvwa</code><br />
+-&gt; To start you can run <code>sudo dvwa-start</code> or run dvwa-start from application menu<br />
+-&gt; Login using default credentials i.e. username: admin &amp; password: password<br />
+-&gt; You can access it on http://127.0.0.1:42001/ or port no specified during dvwa startup<br />
+-&gt; Create database on that site<br />
+-&gt; And you're good to go<br />
+-&gt; You can stop it using <code>sudo dvwa-stop</code> or run dvwa-stop from application menu</p>
+<h3 id="bwapp">bWAPP</h3>
+<p>-&gt; Buggy Web Application<br />
+-&gt; Download it from https://sourceforge.net/projects/bwapp/files/bWAPP/<br />
+-&gt; Extract it to /var/www/html/<br />
+-&gt; Make it executable by running <code>chmod +x /var/www/html/bWAPP
+-&gt; Install dependency using ```sudo apt update -y &amp;&amp; sudo apt install apache2 mysql-server php php-mysql php-gd php-curl -y```
+-&gt; Start web server and database server using ```sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo systemctl start mysql
+sudo systemctl enable mysql```
+-&gt; Go to /var/www/html/bWAPP/admin/ open settings.php change password to ""
+-&gt; Go to http://localhost/bWAPP/install.php and click on install button
+-&gt; If you get error then run</code>sudo mysql -u root -p<code>and when prompted to root@localhost password just hit enter</code>use mysql<code>then `CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';`
+and then</code>GRANT ALL PRIVILEGES ON bWAPP.* TO 'username'@'localhost';<code>then</code>exit</p>
+<p><strong>Note: “username and my_password” can be anything you pick/want</strong><br />
+-&gt; Go back to settings.php and set username and password what you picked<br />
+-&gt; <code>sudo systemctl restart apache2 &amp;&amp; systemctl restart mysql</code><br />
+-&gt; Then http://localhost/bWAPP/install.php<br />
+-&gt;  This is such a pain in the ass</p>
+<h3 id="metasploitable">Metasploitable</h3>
+<p>-&gt; Run directly on VMware<br />
+-&gt; don't use on bridged network config<br />
+-&gt; NAT preferable</p>
+<h3 id="owasp-broken-web-applications-project">OWASP Broken Web Applications Project</h3>
+<p>-&gt; Run directly on VMware<br />
+-&gt; don't use on bridged network config</p>
+<h1 id="basicslab_setup">{{Basics+Lab_Setup}}</h1>
+<blockquote>
+<p><strong>Module:</strong> {{Module Number &amp; Name}}<br />
+<strong>Date:</strong> 05/06/2026<br />
+<strong>Tags:</strong> #pen1 #FUNDAMENTALS #(Basics+Lab_Setup)</p>
+</blockquote>
+<hr />
+<h2 id="my-understanding-plain-english">🧠 My Understanding (Plain English)</h2>
+<p><em>Explain this concept as if talking to a friend. No jargon. If you can't do this — you don't understand it yet. Come back after rewatching.</em></p>
+<blockquote>
+<p>NAT: VM can access outside, but no one from outside can access VM<br />
+Bridged: can be accessed by all computer in same network<br />
+Host Only: all will be visible to host and each other<br />
+LAN Segment: all will be visible to each other but not to host</p>
+</blockquote>
+<hr />
+<h2 id="how-it-works-mechanics">⚙️ How It Works (Mechanics)</h2>
+<p><em>The actual technical mechanism. What happens under the hood? Think packets, system calls, memory, processes.</em></p>
+<p><strong>Analogy First:</strong></p>
+<blockquote>
+<p>Testing apps: as vulnerable machines</p>
+</blockquote>
+<h2 id="technical-breakdown"><strong>Technical Breakdown:</strong></h2>
+<h2 id="-">-</h2>
+<hr />
+<h2 id="offensive-angle">⚔️ Offensive Angle</h2>
+<p><em>How does an attacker use or abuse this?</em></p>
+<p><strong>Attack Scenario:</strong></p>
+<blockquote></blockquote>
+<p><strong>Key Tools:</strong><br />
+| Tool | Purpose |<br />
+|------|---------|<br />
+| | |</p>
+<p><strong>Critical Commands:</strong></p>
+<pre><code class="language-bash"># What it does — explain purpose before syntax
+
+
+</code></pre>
+<h2 id="what-makes-this-attack-work"><strong>What makes this attack work:</strong></h2>
+<hr />
+<h2 id="defensive-angle">🛡️ Defensive Angle</h2>
+<p><em>How do you detect or stop this attack?</em></p>
+<h2 id="detection-indicators"><strong>Detection Indicators:</strong></h2>
+<ul>
+<li></li>
+</ul>
+<p><strong>Logs to check:</strong></p>
+<pre><code># What log, what to look for
+
+</code></pre>
+<h2 id="mitigation"><strong>Mitigation:</strong></h2>
+<hr />
+<h2 id="connections">🔗 Connections</h2>
+<p><em>How does this topic connect to other things you've learned?</em></p>
+<ul>
+<li>Relates to → <a href="../2.%20Networking_Basics/">2. Networking_Basics</a></li>
+<li>Required for → <a href="#"></a></li>
+<li>Builds on → <a href="#"></a></li>
+</ul>
+<hr />
+<h2 id="questions-gaps">❓ Questions &amp; Gaps</h2>
+<p><em>Things you didn't fully understand. Come back to these.</em></p>
+<ul>
+<li>[ ] </li>
+<li>[ ] </li>
+</ul>
+<hr />
+<h2 id="lab-notes">🧪 Lab Notes</h2>
+<p><em>What you actually did in the lab. Commands run, output observed, what surprised you.</em></p>
+<p><strong>Target/Scenario:</strong></p>
+<blockquote></blockquote>
+<p><strong>Steps Taken:</strong><br />
+1. <br />
+2. <br />
+3. </p>
+<p><strong>Unexpected Behavior / Lessons Learned:</strong></p>
+<blockquote></blockquote>
+<hr />
+<h2 id="one-line-summary">⚡ One-Line Summary</h2>
+<p><em>If you had to summarize this entire topic in one sentence — what is it?</em></p>
+<blockquote>
+<p>Just basics</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
