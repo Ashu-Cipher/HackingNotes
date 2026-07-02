@@ -185,7 +185,8 @@
               "title": "Outline of 7. TCP IP MODEL"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,13 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc51084fcce39375",
+  "active": "e32560e309d6aea9",
   "lastOpenFiles": [
+    "docs/NETWORKING/7. TCP IP MODEL.md",
     "docs/ATTACHMENT/Pasted image 20260623201923.png",
     "docs/ATTACHMENT/Pasted image 20260623201734.png",
     "docs/ATTACHMENT/Pasted image 20260623200324.png",
     "docs/NETWORKING/1. INTRODUCTION.md",
-    "docs/NETWORKING/7. TCP IP MODEL.md",
     "docs/ATTACHMENT/Pasted image 20260618170722 1.png",
     "docs/ATTACHMENT/Pasted image 20260623194743.png",
     "docs/ATTACHMENT/Pasted image 20260623185654.png",
@@ -237,7 +238,6 @@
     "docs/NETWORK/NETWORKING/2. HISTORY.md",
     "docs/NETWORK/NETWORKING/1. INTRODUCTION.md",
     "docs/NETWORK/NETWORKING",
-    "docs/ATTACHMENT/Pasted image 20260618153502.png",
     "4._PHYSICAL_LAYER.md",
     "4..md",
     "2026-06-17.md",
